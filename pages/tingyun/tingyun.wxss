@@ -1,0 +1,76 @@
+@import "../../utils/style/normalize.wxss";
+@import "../../utils/style/theme.wxss";
+page{
+  background:#eee;
+}
+.line{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top:80rpx;
+}
+.box{
+  width: 40%;
+  height: 300rpx;
+  margin-left: 6%;
+  font-weight: bolder;
+  border-radius: 10rpx;
+  border: solid #FFFAFA 1px;
+  box-shadow: 3px 3px 3px #C0C0C0;
+}
+.box-title{
+  width: 100%;
+  height: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+.box-click{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  vertical-align: middle;
+}
+.box-click text{
+  font-size: 30rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+.box-line{
+  width: 90%;
+  border-bottom: 1px solid;
+  margin: 0 auto;
+}
+image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top:25rpx;
+  margin-left: 55rpx;
+}
+view{
+  color: white;
+}
+.network{
+    background: linear-gradient(to top right,#aacf76, #eee);
+}
+.app{
+  background: linear-gradient(to top right,#44c9f1, #f6f6f6);
+}
+.browser{
+  background: linear-gradient(to top right,#f97c91, #f6f6f6);
+}
+.server{
+  background: linear-gradient(to top right,#f87e4e, #f6f6f6);
+}
+.user-logo{
+  width: 110rpx;
+  height: 110rpx;
+  margin-top:80rpx;
+  margin-left: 3rpx;
+  border-radius: 110rpx;
+  border: 1px solid white;
+  box-shadow: 3px 3px 3px #C0C0C0;
+}

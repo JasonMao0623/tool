@@ -1,0 +1,13 @@
+.container{
+  color: #1296db;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+view{
+  color: #1296db;
+  font-size:28rpx;
+}
+page{
+  background:#eee;
+}

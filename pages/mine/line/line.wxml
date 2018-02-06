@@ -1,0 +1,6 @@
+<template name="line">
+<view class="line" data-name="{{item}}" catchtap='onLineTap'>
+      <view>{{item}}</view>
+      <view>></view>
+</view>
+</template>

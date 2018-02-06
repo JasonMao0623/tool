@@ -1,0 +1,19 @@
+.line{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  background: white;
+  width: 100%;
+  line-height: 100rpx;
+   font-size: 48rpx;
+   position: relative;
+   margin-bottom: 5rpx;
+}
+.line view:first-child{
+  margin-left: 30rpx;
+}
+.line view:last-child{
+  position: absolute;
+  right: 30rpx;
+  font-size: 48rpx;
+}

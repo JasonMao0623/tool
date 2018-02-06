@@ -1,0 +1,39 @@
+@import "../../utils/style/normalize.wxss";
+@import "../../utils/style/theme.wxss";
+@import "../../tmplate/workline/workline.wxss";
+.top_tab{
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  width: 100%;
+  background: white;
+}
+.top_tab view{
+  width: 50%;
+}
+.selected{
+  border-bottom: solid 4rpx burlywood;
+  color: burlywood;
+}
+.is_display{
+  display: block;
+}
+.no_display{
+  display: none;
+}
+.title{
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: left;
+  width: 100%;
+  padding-left: 50rpx;
+  font-size: 25rpx;
+  color: grey;
+}
+.content{
+  background: white;
+  width: 100%;
+}
+

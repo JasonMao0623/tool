@@ -1,0 +1,35 @@
+.work_line{
+  width: 100%;
+  height: 150rpx;
+  border-bottom: solid 0.1px #e1e1e1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.logo_style{
+  
+}
+.work_line image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+}
+.work_line .mid{
+  line-height: 150rpx;
+  margin-left: 30rpx;
+  color: black;
+}
+.work_line .right{
+  position: absolute;
+  right: 30rpx;
+  line-height: 150rpx;
+}
+.work_line .right text:first-child{
+  margin-right: 30rpx;
+  font-size: 35rpx;
+}
+.work_line .right text:last-child{
+  font-size: 45rpx;
+}

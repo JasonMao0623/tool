@@ -1,0 +1,22 @@
+/**index.wxss**/
+@import "../../utils/style/normalize.wxss";
+@import "../../utils/style/theme.wxss";
+.container{
+  width: 750rpx;
+  display: flex;
+  flex-direction:column;
+}
+image{
+  margin-top:280rpx;
+  margin-left: 20rpx;
+}
+.container view{
+  margin-top:350rpx;
+  background: #1296db;
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: white;
+  border-radius: 20rpx;
+}

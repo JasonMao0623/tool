@@ -1,0 +1,64 @@
+<view class="container">
+  <image src="/images/tingyun/ty-logo.png"></image>
+  <image src="/images/tingyun/history.png" class="history" catchtap="onHisTap"></image>
+  <image src="/images/tingyun/help.png" class="help" catchtap='onHelpTap'>
+  </image>
+  <image src="/images/tingyun/off.png" class="off {{isHisExist}}" catchtap="onOffTap"></image>
+  <view class="check-container {{isCheckExist}}">
+    <view class="input-content">
+      <view class="line">
+        <text>用户ID</text>
+        <input placeholder="请输入用户ID" bindblur="onUserIdConfirm" confirm-type='next' placeholder-class="place" />
+        <text>*</text>
+      </view>
+      <view class="line">
+        <text>授权码</text>
+        <input placeholder="请输入授权码" bindblur="onAuthKeyConfirm" confirm-type='next' placeholder-class="place" />
+        <text>*</text>
+      </view>
+      <view class="line">
+        <text>应用ID</text>
+        <input placeholder="请输入应用ID" bindblur="onAppIdConfirm" confirm-type='next' placeholder-class="place" />
+        <text>*</text>
+      </view>
+      <view class="line">
+        <text>图表ID</text>
+        <picker bindchange="bindChartChange" value="{{index}}" range="{{charts}}" range-key="name">
+          <view class="picker">
+            {{charts[index].name}}
+          </view>
+        </picker>
+        <text>*</text>
+      </view>
+      <view class="line">
+        <text>时间段</text>
+        <input placeholder="请输入时间段(分钟)" bindblur="onPeriodConfirm" confirm-type='done' placeholder-class="place" type="number"/>
+      </view>
+      <view class="line">
+        <text>截止天</text>
+        <picker mode="date" value="{{date}}" bindchange="bindDateChange" start="2015-09-01" end="2017-09-01">
+          <view class="picker">{{date}}</view>
+        </picker>
+      </view>
+      <view class="line">
+        <text>截止时</text>
+        <picker mode="time" value="{{time}}" bindchange="bindTimeChange" start="2015-09-01" end="2017-09-01">
+          <view class="picker">{{time}}</view>
+        </picker>
+      </view>
+    </view>
+    <button catchtap="onButtonTap" class="{{className}}">立即生成</button>
+  </view>
+   <view class="history-container {{isHisExist}}">
+    <view class="his-line">
+      <view>名称</view>
+      <view>EXCEL下载地址</view>
+    </view>
+    <block wx:for="{{his}}">
+      <view class="his-line">
+        <view><text selectable="true">{{item.name}}</text></view>
+        <view><text selectable="true">{{item.url}}</text></view>
+      </view>
+    </block>
+  </view> 
+</view>

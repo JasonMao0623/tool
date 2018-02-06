@@ -1,0 +1,51 @@
+<view class="container">
+  <image src="{{userLogo}}" class="user-logo" catchtap="onLoginTap"></image>
+  <view class="line">
+    <view class="box network" catchtap="onIntoTap" data-tag="network">
+      <view class="box-title">
+        听云Network
+      </view>
+      <view class="box-line">
+      </view>
+      <view class="box-click">
+        <image src="/images/tingyun/click.png"></image>
+        <text>点击进入</text>
+      </view>
+    </view>
+    <view class="box app" catchtap="onIntoTap" data-tag="app">
+      <view class="box-title">
+        听云APP
+      </view>
+      <view class="box-line">
+      </view>
+      <view class="box-click">
+        <image src="/images/tingyun/click.png"></image>
+        <text>点击进入</text>
+      </view>
+    </view>
+  </view>
+    <view class="line"> 
+    <view class="box browser" catchtap="onIntoTap" data-tag="browser">
+      <view class="box-title">
+        听云Browser
+      </view>
+      <view class="box-line">
+      </view>
+      <view class="box-click">
+        <image src="/images/tingyun/click.png"></image>
+        <text>点击进入</text>
+      </view>
+    </view>
+    <view class="box server" catchtap="onIntoTap" data-tag="server">
+      <view class="box-title">
+        听云Server
+      </view>
+      <view class="box-line">
+      </view>
+      <view class="box-click">
+        <image src="/images/tingyun/click.png"></image>
+        <text>点击进入</text>
+      </view>
+    </view>
+  </view>
+</view>

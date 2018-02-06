@@ -1,0 +1,25 @@
+<import src="line/line.wxml" />
+<view class='container'>
+  <view class="user">
+    <image class="user_logo left" src='{{userLogo}}' ></image>
+    <view class="mid">
+      <view class='user_name'>mao</view>
+      <view class='user_attr'>江苏 南通</view>
+    </view>
+  </view>
+  <view class="setting">
+    <block wx:for="{{line_data}}" wx:key="item">
+      <template is="line" data="{{item}}"/>
+    </block>
+    <button open-type="contact">
+      <view class='line'>
+        <view>反馈意见</view>
+        <view>></view>
+      </view>
+    </button>
+    <view class='line'>
+      <view>敬请期待...</view>
+      <view></view>
+    </view>
+  </view>
+</view>

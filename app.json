@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/privatization/privatization",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/tingyun/tingyun",
+    "pages/tingyun/tingyun_browser/tingyun_browser",
+    "pages/tingyun/tingyun_server/tingyun_server",
+    "pages/tingyun/tingyun_app/tingyun_app",
+    "pages/tingyun/tingyun_network/tingyun_network"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#cfe5ef",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath":"pages/privatization/privatization",
+        "text": "私有化",
+        "iconPath": "images/siyouhua/tab.png",
+        "selectedIconPath": "images/siyouhua/tab_color.png"
+      },
+      {
+        "pagePath": "pages/tingyun/tingyun",
+        "text": "工具箱",
+        "iconPath": "images/tingyun/tool.png",
+        "selectedIconPath": "images/tingyun/tool_color.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/siyouhua/my.png",
+        "selectedIconPath": "images/siyouhua/my_color.png"
+      }
+    ]
+  }
+}

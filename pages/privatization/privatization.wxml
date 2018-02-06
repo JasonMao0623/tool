@@ -1,0 +1,20 @@
+<import src="../../tmplate/workline/workline.wxml" />
+<view class='container'>
+  <view class="top_tab">
+    <view catchtap='onTopTabTap' data-tapname="workbench" class="{{first_tab?'selected':''}}">工作台</view>
+    <view catchtap='onTopTabTap' data-tapname="project" class="{{second_tab?'selected':''}}">项目</view>
+  </view>
+  <view class="title">{{title_name}}</view>
+  <view class="content">
+    <view class="{{first_tab?'is_display':'no_display'}}">
+      <block wx:for="{{workbench_config}}" wx:key="item">
+        <template is="workline" data="{{...item}}" />
+      </block>
+    </view>
+    <view class="{{second_tab?'is_display':'no_display'}}">
+      <block wx:for="{{projects}}" wx:key="item">
+        <template is="workline" data="{{...item}}" />
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+    <template name="workline">
+    <view class="work_line">
+      <image src='{{img_src}}'></image>
+      <view class="mid">{{name}}</view>
+      <view class="right">
+        <text>{{num}}</text>
+        <text>></text>
+      </view>
+    </view>
+    </template>
