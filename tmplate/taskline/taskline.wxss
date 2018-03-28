@@ -1,0 +1,23 @@
+.task_line{
+  height: 120rpx;
+  margin-top: 10rpx;
+  background: white;
+}
+.task_name,.task_bottom{
+  margin-left: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: black;
+}
+.task_bottom{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.task_time{
+  margin-left: 30rpx;
+}
+.task_more{
+  position: absolute;
+  right: 20rpx;
+}

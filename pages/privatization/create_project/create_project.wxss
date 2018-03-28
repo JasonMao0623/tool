@@ -1,0 +1,60 @@
+@import "../../../utils/style/theme.wxss";
+.navigate{
+  height: 100rpx;
+}
+.box{
+  background: white;
+  margin-top:20rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column
+}
+.navigate input{
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+}
+.task-line{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom:  solid 0.1px #e1e1e1;
+  position: relative;
+}
+.task-line text:first-child{
+  margin-left: 20rpx;
+}
+.task-line text:last-child{
+  position: absolute;
+  right: 20rpx;
+  color: black;
+}
+.task-line .mid{
+  position: absolute;
+  right: 50rpx;
+  top:4rpx;
+}
+.task-line input{
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.comment view{
+  border: none;
+  height: 200rpx;
+  line-height: normal;
+  width: 95%;
+  margin:0 auto;
+  margin-top: 20rpx;
+}
+.comment textarea{
+  width: 100%;
+  color: black;
+}
+button{
+  width: 99%;
+  border: none;
+  background-color: #1296db;
+  color: white;
+  margin: 20rpx auto;
+}

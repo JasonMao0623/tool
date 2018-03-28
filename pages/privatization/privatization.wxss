@@ -1,6 +1,7 @@
 @import "../../utils/style/normalize.wxss";
 @import "../../utils/style/theme.wxss";
 @import "../../tmplate/workline/workline.wxss";
+@import "../../tmplate/global/global.wxss";
 .top_tab{
   display: flex;
   flex-direction: row;
@@ -36,4 +37,3 @@
   background: white;
   width: 100%;
 }
-

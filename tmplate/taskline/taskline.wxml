@@ -1,0 +1,10 @@
+<template name="taskline">
+  <view class="task_line" catchtap='onTaskTap'>
+    <view class="task_name">{{name}}</view>
+    <view class='task_bottom'>
+      <view class='task_owner'>{{owner}} </view>
+      <view class='task_time'>截止到{{time}}</view>
+      <view class='task_more'>···</view>
+    </view>
+  </view>
+</template>

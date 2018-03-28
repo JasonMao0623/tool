@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
 	"appid": "wx2a1b9f56c614c024",
-	"projectname": "tools",
+	"projectname": "tool",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

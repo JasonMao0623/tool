@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="navigate box">
+    <input placeholder='填写项目名称'></input>
+  </view>
+  <view class="progress box">
+    <view class="task-line">
+      <text>公开性</text>
+      <text class="mid"></text>
+      <text>></text>
+    </view>
+  </view>
+  <view class='person box'>
+    <view class="task-line">
+      <text>负责人</text>
+      <input placeholder='填写负责人' class='mid'></input>
+      <text>></text>
+    </view>
+  </view>
+  <view class="time box">
+    <view class="task-line">
+      <text>开始时间</text>
+      <text class="mid">2018-02-23</text>
+      <text>></text>
+    </view>
+    <view class="task-line">
+      <text>结束时间</text>
+      <text class="mid">2018-03-23</text>
+      <text>></text>
+    </view>
+  </view>
+  <view class="comment box">
+    <view class="task-line">
+      <textarea placeholder='填写项目描述'></textarea>
+    </view>
+  </view>
+      <button>提 交</button>
+</view>

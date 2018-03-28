@@ -1,0 +1,60 @@
+.global_bg{
+  position: absolute;
+  width: 755rpx;
+  /* height: 1114rpx; */
+  height: 100%;
+  top: 0;
+  background: black;
+  opacity: 0.7
+}
+.circle{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 50rpx;
+  border-radius: 80rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.circle view{
+  width: 40rpx;
+  text-align: center;
+  margin-left: -40rpx;
+  font-size: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.circle image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.global_project{
+  bottom: 130rpx;
+}
+.global_task{
+  bottom: 230rpx;
+}
+.global_add{
+  bottom: 30rpx;
+}
+.rotate{
+  animation: xuanzhuan 0.5s;
+  animation-fill-mode:forwards;
+}
+.-rotate{
+  animation: huanyuan 0.5s;
+  animation-fill-mode:forwards;
+}
+.is_shadow{
+  box-shadow: 6rpx 6rpx 6rpx gray;
+}
+@keyframes xuanzhuan {
+  from{transform: rotate(0deg)}
+  to{transform: rotate(45deg)}
+}
+
+@keyframes huanyuan {
+  from{transform: rotate(45deg)}
+  to{transform: rotate(0deg)}
+}
+

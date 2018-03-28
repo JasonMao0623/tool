@@ -1,5 +1,5 @@
     <template name="workline">
-    <view class="work_line">
+    <view class="work_line" data-tap="{{desc}}" catchtap='onLineTap' data-category="{{category}}" data-id="{{id}}">
       <image src='{{img_src}}'></image>
       <view class="mid">{{name}}</view>
       <view class="right">

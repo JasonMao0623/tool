@@ -1,6 +1,10 @@
 {
   "pages": [
     "pages/privatization/privatization",
+    "pages/privatization/create_project/create_project",
+    "pages/privatization/project/project",
+    "pages/privatization/task_detail/task_detail",
+"pages/privatization/privatization_detail/privatization_detail",
     "pages/mine/mine",
     "pages/index/index",
     "pages/tingyun/tingyun",
@@ -20,7 +24,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath":"pages/privatization/privatization",
+        "pagePath": "pages/privatization/privatization",
         "text": "私有化",
         "iconPath": "images/siyouhua/tab.png",
         "selectedIconPath": "images/siyouhua/tab_color.png"

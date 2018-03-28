@@ -1,0 +1,59 @@
+<view class="container">
+  <view class="project-des">
+    <view class="des-top">
+      <image src='/images/siyouhua/project/base.png'></image>
+      <view>
+        <text>pmp</text>
+        <text>2018.1.28 -- 2018.05.14</text>
+      </view>
+    </view>
+    <view class='des-mid'>
+      <progress percent="70" show-info stroke-width="3" active activeColor="#1296db"/>
+    </view>
+    <view class="des-bottom">
+      <view>
+        <text>19</text>
+        <text>已延期</text>
+      </view>
+      <view class='des-bottom-mid'>
+        <text>0</text>
+        <text>未验收</text>
+      </view>
+      <view>
+        <text>0</text>
+        <text>已归档</text>
+      </view>
+    </view>
+  </view>
+  <view class="project-mid">项目列表</view>
+  <view class="project-task">
+    <view class="task-line">
+      <view>网上报考</view>
+      <view>
+        <text>冒佳俊</text>
+        <text>延期</text>
+      </view> 
+    </view>
+    <view class="task-line">
+      <view>网上报考</view>
+      <view>
+        <text>冒佳俊</text>
+        <text>延期</text>
+      </view>
+    </view>
+    <view class="task-line">
+      <view>网上报考</view>
+      <view>
+        <text>冒佳俊</text>
+        <text>延期</text>
+      </view>
+    </view>
+    <view class="task-line">
+      <view>网上报考</view>
+      <view>
+        <text>冒佳俊</text>
+        <text>延期</text>
+      </view>
+    </view>
+  </view>
+</view>

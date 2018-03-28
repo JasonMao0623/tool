@@ -1,0 +1,33 @@
+<import src="../../../tmplate/taskline/taskline.wxml" />
+<import src="../../../tmplate/global/global.wxml" />
+<view class="container">
+  <view class="top">
+    <view class="{{topindex[0]?'selected':''}}" data-index="0" catchtap='onTopBarTap'>笔记 {{note_num}}</view>
+    <view class="{{topindex[1]?'selected':''}}" data-index="1" catchtap='onTopBarTap'>执行中 {{now_num}}</view>
+    <view class="{{topindex[2]?'selected':''}}" data-index="2" catchtap='onTopBarTap'>待执行 {{wait_num}}</view>
+    <view class="{{topindex[3]?'selected':''}}" data-index="3" catchtap='onTopBarTap'>需跟踪 {{need_num}}</view>
+  </view>
+  <view class="content">
+    <view class="{{topindex[0]?'is_display':'no_display'}}">
+      <block wx:for="{{datas.note_data}}" wx:key="item">
+        <template is="taskline" data="{{...item}}" />
+      </block>
+    </view>
+    <view class="{{topindex[1]?'is_display':'no_display'}}">
+      <block wx:for="{{datas.now_data}}" wx:key="item">
+        <template is="taskline" data="{{...item}}" />
+      </block>
+    </view>
+    <view class="{{topindex[2]?'is_display':'no_display'}}">
+      <block wx:for="{{datas.wait_data}}" wx:key="item">
+        <template is="taskline" data="{{...item}}" />
+      </block>
+    </view>
+    <view class="{{topindex[3]?'is_display':'no_display'}}">
+      <block wx:for="{{datas.need_data}}" wx:key="item">
+        <template is="taskline" data="{{...item}}" />
+      </block>
+    </view>
+  </view>
+</view>
+<template is="global_setting" data="{{is_display}}"/>

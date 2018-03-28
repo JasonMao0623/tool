@@ -1,0 +1,19 @@
+<template name="global_setting">
+  <view class="global_bg {{is_display?'':'no_display'}}">
+  </view>
+  <view class="{{is_display?'':'no_display'}}" catchtap='onCreateTaskTap'>
+    <view class="global_task circle">
+      <view>任务</view>
+      <image src="/images/siyouhua/task.png"></image>
+    </view>
+  </view>
+  <view class="{{is_display?'':'no_display'}}" catchtap='onCreateProjectTap'>
+    <view class="global_project circle">
+      <view>项目</view>
+      <image src="/images/siyouhua/project.png"></image>
+    </view>
+  </view>
+  <view class="global_add circle" catchtap='onAddTap'>
+    <image src="/images/siyouhua/add.png" class="{{is_display?'rotate':'-rotate'}}"></image>
+  </view>
+</template>

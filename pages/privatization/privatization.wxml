@@ -1,4 +1,5 @@
 <import src="../../tmplate/workline/workline.wxml" />
+<import src="../../tmplate/global/global.wxml" />
 <view class='container'>
   <view class="top_tab">
     <view catchtap='onTopTabTap' data-tapname="workbench" class="{{first_tab?'selected':''}}">工作台</view>
@@ -18,3 +19,4 @@
     </view>
   </view>
 </view>
+<template is="global_setting" data="{{is_display}}"/>
